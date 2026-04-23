@@ -1,31 +1,101 @@
-# ALU-Implementation-in-Logisim
+# ALU Architecture And Logisim Design
 
-<h2><b>Overview</b></h2>
+## Overview
 
-This repository presents a comprehensive implementation of a basic Arithmetic Logic Unit (ALU) using Logisim, an interactive tool designed for digital logic design. The project is methodically divided into three distinct phases, each building upon the previous one to enhance understanding and functionality.
+ALU Architecture And Logisim Design is a digital logic design documentation project centered on the structure and behavior of a basic Arithmetic Logic Unit (ALU).
 
-<h2>
-  <b>Project Phases</b></h2>
-  <p>
-<b><u>Phase 1: Instruction Set Architecture</u></b>
+This repository is positioned as a recruiter-ready computer architecture and digital systems portfolio project. It presents the instruction-level design, operation categories, implementation intent, and testing approach for a basic ALU intended for Logisim-based circuit development.
 
-In this foundational phase, we define a binary instruction set that encompasses essential operations such as addition, subtraction, multiplication, and division, alongside bitwise operations (AND, OR, XOR) and bit shifting (SHL, SHR). Each instruction is meticulously documented, detailing its binary representation, operational semantics, and the interactions with the accumulator and operand registers.</p>
-<p>
-<b>
-<u>Phase 2: Assembly Language Integration</u></b>
+The project currently focuses on:
 
-This phase introduces an assembly language layer that allows users to write higher-level instructions for the ALU. The assembly code facilitates operations such as iterative addition until a specified condition is met and right shifting until certain criteria are fulfilled. The design emphasizes clarity and efficiency, ensuring that the assembly language instructions are intuitive and easy to follow.</p>
-<p>
-<b>
-<u>Phase 3: Simulation and Validation</u></b>
+- ALU Instruction Set Design
+- Arithmetic And Logic Operation Planning
+- Register Interaction Concepts
+- Logisim-Oriented Build Planning
+- Validation And Testing Strategy
 
-The final phase focuses on simulating the ALU operations within Logisim, validating the functionality of each instruction through rigorous testing. The results are analyzed to confirm that the ALU performs as expected, providing a robust platform for further exploration and enhancement.</p>
-<p>
-<h2><b>Features</b></h2>
-Comprehensive instruction set with detailed descriptions and operational semantics.
-Assembly language support for intuitive programming of ALU operations.
-Modular design, allowing for easy extension and integration of additional functionalities.
-Thorough documentation to facilitate understanding and usability.</p>
+## Real-World Business Use Case
 
-<h2><b>Conclusion</b></h2>
-This project serves as an educational resource for those interested in digital logic design and computer architecture. It provides a foundational understanding of ALU operations and encourages further exploration into more complex computational systems.
+This project maps to practical hardware and low-level systems learning workflows used by:
+
+- Computer Engineering Students
+- Digital Logic Learners
+- Embedded Systems Enthusiasts
+- Low-Level Systems Developers
+- Candidates Building Computer Architecture Portfolios
+
+A strong ALU foundation supports real-world understanding in areas such as:
+
+- Processor Design Fundamentals
+- Instruction Execution Behavior
+- Register And Datapath Design
+- Arithmetic And Logic Circuit Planning
+- Simulation-Driven Hardware Validation
+
+## Key Features
+
+- Basic ALU Design Documentation
+- Instruction Set Planning
+- Arithmetic Operation Coverage
+- Bitwise Operation Coverage
+- Shift Operation Coverage
+- Assembly-Oriented Thinking
+- Test Planning For Validation
+
+## Repository Contents
+
+- `Basic ALU.docx`
+- `ALU_Instruction_Set.md`
+- `ALU_Architecture_Notes.md`
+- `ALU_Test_Plan.md`
+
+## Project Scope
+
+This repository currently presents the ALU as a documented architecture and implementation plan.
+
+It does **not** currently include a verified `.circ` Logisim circuit file. The design is therefore presented honestly as a documentation and planning project rather than a completed runnable circuit repo.
+
+## Why This Project Matters In A Portfolio
+
+This project demonstrates:
+
+- Digital Logic Design Thinking
+- Instruction-Level Planning
+- Computer Architecture Fundamentals
+- Hardware-Oriented Documentation
+- Structured Technical Communication
+
+It is especially useful in a portfolio for roles or learning tracks related to:
+
+- Computer Engineering
+- Embedded Systems
+- Low-Level Software
+- Hardware Simulation
+- Computer Architecture Study
+
+## Current Limitations
+
+This repository does not yet contain:
+
+- A verified Logisim `.circ` file
+- Exported circuit screenshots
+- Automated simulation artifacts
+
+Possible future improvements include:
+
+- Building The Full ALU In Logisim
+- Exporting Circuit Screenshots
+- Adding Control Signal Tables
+- Adding Truth Tables
+- Including A Datapath Diagram
+- Creating Step-By-Step Build Notes For Each Subcircuit
+
+## Suggested Professional Positioning
+
+A strong business-facing description for this project is:
+
+**ALU Architecture And Logisim Design Project For Digital Logic And Computer Architecture Study**
+
+## Author Notes
+
+This repository was polished to present the ALU work honestly and professionally as a digital logic architecture and implementation-planning project.
